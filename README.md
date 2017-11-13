@@ -61,7 +61,7 @@ Después de correr Elasticsearch, confirmar que la instancia está levantada yen
 }
 ```
 
-####Instalando y corriendo Kibana
+#### Instalando y corriendo Kibana
 Descarcar kibana de [este enlace](https://www.elastic.co/downloads/kibana), una vez descargado mover el archivo a la carpeta que se creó *~installs/efk* y descomprimirlo
 
 ```bash
@@ -79,7 +79,7 @@ cd kibana-4.3.0-darwin-x64
 
 Navegar a http://0.0.0.0:5601 y ahí estará el dashboard de Kibana
 
-####Instalando y corriendo Fluentd
+#### Instalando y corriendo Fluentd
 Para la instalación de Fluentd, éste provee un script que automatiza el proceso de instalación, éstos scripts están disponibles para:
 - ubuntu: Trusty, Precise and Lucid
 - debian:Â Jessie, Wheezy and Squeeze.
@@ -113,7 +113,7 @@ Iniciar el td-agent
 /etc/init.d/td-agent status
 ```
 
-####Juntar EFK, Elasticsearch, Fluentd y Kibana stack
+#### Juntar EFK, Elasticsearch, Fluentd y Kibana stack
 Obtener los plugins requeridos por Fluentd
 ```bash
 udo apt-get install make libcurl4-gnutls-dev --yes
